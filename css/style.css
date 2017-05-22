@@ -180,6 +180,12 @@
 			font-weight: 900;
 			letter-spacing: -0.015em;
 			line-height: 1em;
+			-moz-text-fill-color: white;
+			-webkit-text-fill-color: white;
+			-moz-text-stroke-color: black;
+			-webkit-text-stroke-color: black;
+			-moz-text-stroke-width: 2px;
+			-webkit-text-stroke-width: 2px;
 		}
 
 		#header p {
