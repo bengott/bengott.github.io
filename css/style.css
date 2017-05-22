@@ -183,10 +183,27 @@
 		}
 
 		#header p {
-			font-size: 1.5em;
+			font-size: 40px;
 			font-weight: bold;
+			font-style: italic;
 			margin: 0.75em 0 0.25em 0;
 			opacity: 0.9;
+			-moz-text-fill-color: white;
+			-webkit-text-fill-color: white;
+			-moz-text-stroke-color: black;
+			-webkit-text-stroke-color: black;
+			-moz-text-stroke-width: 2px;
+			-webkit-text-stroke-width: 2px;
+		}
+
+		#header p a {
+			/* same neon green as neurons background image */
+			-moz-text-fill-color: #06fc06;
+			-webkit-text-fill-color: #06fc06;
+			-moz-text-stroke-color: black;
+			-webkit-text-stroke-color: black;
+			-moz-text-stroke-width: 2px;
+			-webkit-text-stroke-width: 2px;
 		}
 
 		#header nav {
